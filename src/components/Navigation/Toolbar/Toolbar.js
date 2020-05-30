@@ -8,8 +8,8 @@ import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
 
 const toolbar = (props) => (
     <header className={classes.Toolbar}>
-        <DrawerToggle clicked={props.drawerToggleClicked}/>
-        <Logo height="80%"/>
+        <DrawerToggle />
+        <Logo height="90%" clicked={props.drawerToggleClicked}/>
         <nav className={classes.DesktopOnly}>
             <NavigationItems />
         </nav>
